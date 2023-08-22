@@ -16,7 +16,7 @@ But in `ProxyFactory.sol` contract, no input value is passed in when ownable is 
  constructor(address[] memory _whitelistedTokens) EIP712("ProxyFactory", "1") Ownable() {
         if (_whitelistedTokens.length == 0) revert ProxyFactory__NoEmptyArray();
         for (uint256 i; i < _whitelistedTokens.length;) {
-...More Code
+//...More Code
 ```
 
 
