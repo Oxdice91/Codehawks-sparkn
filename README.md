@@ -43,13 +43,13 @@ Missing function to check if a `token` is `whitelisted`,causing loss of funds
 
 
 ## Summary
-The protocol lacks a `public` function which can be called by any `organiser` or `sponsor` to ensure the intended token for distribution is `whitelisted`.
+The protocol lacks a `public` function which can be called by any `organizer` or `sponsor` to ensure the intended token for distribution is `whitelisted`.
 ## Vulnerability Details
 As time passes the number of available tokens worldwide will continue to increase, therefore it is vital for an `organiser` or `sponsor` to be able to check if a `token` intended for `distribution` is `whitelisted` to prevent funds from being `lost` forever in the proxy contracts.
 This is a simple but very important function that will prevent huge losses in the future.
 After calling `getProxyAddress()` the `check function` will also be called before the `transfer` is made.
 ## Impact
-This will prevent loss of tokens because of ignorance.
+This will prevent the loss of tokens because of ignorance.
 ## Tools Used
 Manual Review
 ## Recommendations
